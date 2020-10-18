@@ -1,0 +1,395 @@
+{
+	"id": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+	"name": "Oye",
+	"description": "",
+	"order": [
+		"ec7fd55d-8fc4-685c-ad06-4db2319f199e",
+		"bbaeec45-b299-f228-25c4-e78c6030f722",
+		"843492ad-7043-33d7-2457-4009c3035317",
+		"e7d8b1e8-3870-775c-8723-660a4a4f8e8f",
+		"8f3fedfc-82a2-1ce0-b5f2-dbd74b7c11af",
+		"dfe1f744-984f-6343-5a2e-5dac754e8bbb",
+		"cc15df54-cd6a-30d4-e073-a80e572927c7",
+		"e91d8e4c-842d-68b5-4330-cdfc0cf19132",
+		"07e900e6-0e96-68ef-e9e4-c9a737e1e39d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1603018537942,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "07e900e6-0e96-68ef-e9e4-c9a737e1e39d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/rides",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+			"data": [
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "9013068895",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Get All ride Details",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603025331169,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "843492ad-7043-33d7-2457-4009c3035317",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWY4MGY3MzlmZDIzMmM3ZjRjZDkiLCJpYXQiOjE2MDMwMTg2MjUsImV4cCI6MTYwMzAyMTYyNX0.TkMfgopwLKp367obh1ojfKSDPzNuu3JHRPArSuiRAm8\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWY4MGY3MzlmZDIzMmM3ZjRjZDkiLCJpYXQiOjE2MDMwMTg2MjUsImV4cCI6MTYwMzAyMTYyNX0.TkMfgopwLKp367obh1ojfKSDPzNuu3JHRPArSuiRAm8",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/rider/ratings",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+			"data": null,
+			"dataMode": "params",
+			"name": "Driver View Rating",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603018879256,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8f3fedfc-82a2-1ce0-b5f2-dbd74b7c11af",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWYxYjUyNTQyODQzYjgyNjdhNWYiLCJpYXQiOjE2MDMwMTk1OTksImV4cCI6MTYwMzAyMjU5OX0.buqYtypqNLnUcKn6VztO6Fb54hZWzjWVP9JyDKoIQZ0\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWYxYjUyNTQyODQzYjgyNjdhNWYiLCJpYXQiOjE2MDMwMTk1OTksImV4cCI6MTYwMzAyMjU5OX0.buqYtypqNLnUcKn6VztO6Fb54hZWzjWVP9JyDKoIQZ0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/user/ratings",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+			"data": null,
+			"dataMode": "params",
+			"name": "User Ratings",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603019674559,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "bbaeec45-b299-f228-25c4-e78c6030f722",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/rider/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+			"data": [
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "8851782765",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Driver Login Api",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603019163229,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cc15df54-cd6a-30d4-e073-a80e572927c7",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWYxYjUyNTQyODQzYjgyNjdhNWYiLCJpYXQiOjE2MDMwMjE1MjgsImV4cCI6MTYwMzAyNDUyOH0.ddnFlruAGyjbmfHU5p4nDbLM1X-e6Cy2BQ3_u41a0VQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWYxYjUyNTQyODQzYjgyNjdhNWYiLCJpYXQiOjE2MDMwMjE1MjgsImV4cCI6MTYwMzAyNDUyOH0.ddnFlruAGyjbmfHU5p4nDbLM1X-e6Cy2BQ3_u41a0VQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/user/rateride?rideId=5f8c2a1d2a0d4e1bac90a114&rating=4.5",
+			"queryParams": [
+				{
+					"key": "rideId",
+					"value": "5f8c2a1d2a0d4e1bac90a114",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "rating",
+					"value": "4.5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+			"data": null,
+			"dataMode": "params",
+			"name": "Rate Rider",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603021581139,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dfe1f744-984f-6343-5a2e-5dac754e8bbb",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWYxYjUyNTQyODQzYjgyNjdhNWYiLCJpYXQiOjE2MDMwMjEzMzMsImV4cCI6MTYwMzAyNDMzM30.25PY9Ej_hq-B1LveSIa1TkTmx1B_7eJquJ4WM1bhO6Y\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWYxYjUyNTQyODQzYjgyNjdhNWYiLCJpYXQiOjE2MDMwMjEzMzMsImV4cCI6MTYwMzAyNDMzM30.25PY9Ej_hq-B1LveSIa1TkTmx1B_7eJquJ4WM1bhO6Y",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/user/create?riderId=5f8c1f80f739fd232c7f4cd9",
+			"queryParams": [
+				{
+					"key": "riderId",
+					"value": "5f8c1f80f739fd232c7f4cd9",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+			"data": null,
+			"dataMode": "params",
+			"name": "Create Ride User",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603021403470,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e7d8b1e8-3870-775c-8723-660a4a4f8e8f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/user/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+			"data": [
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "8447033951",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "User Login ",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603019568742,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e91d8e4c-842d-68b5-4330-cdfc0cf19132",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWY4MGY3MzlmZDIzMmM3ZjRjZDkiLCJpYXQiOjE2MDMwMjI5NTAsImV4cCI6MTYwMzAyNTk1MH0.CcjoxYRwUpO6Nz-iQtStt5BE5vgEjZX-7qePJXAxtAo\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjhjMWY4MGY3MzlmZDIzMmM3ZjRjZDkiLCJpYXQiOjE2MDMwMjI5NTAsImV4cCI6MTYwMzAyNTk1MH0.CcjoxYRwUpO6Nz-iQtStt5BE5vgEjZX-7qePJXAxtAo",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/rider/rateuser?rideId=5f8c2a1d2a0d4e1bac90a114&rating=4",
+			"queryParams": [
+				{
+					"key": "rideId",
+					"value": "5f8c2a1d2a0d4e1bac90a114",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "rating",
+					"value": "4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+			"data": null,
+			"dataMode": "params",
+			"name": "Rate User",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603023015406,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ec7fd55d-8fc4-685c-ad06-4db2319f199e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/rider/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "8851782765",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603018629152,
+			"name": "Driver SignUp",
+			"description": "",
+			"collectionId": "ae25344f-21d5-7414-6e88-566d3e9489a0",
+			"responses": []
+		}
+	]
+}
